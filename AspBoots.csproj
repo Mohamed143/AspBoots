@@ -85,9 +85,12 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Controls.aspx" />
+    <Content Include="Controls4B.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GridviewLab.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="PageDirec4F.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -111,6 +114,13 @@
     <Compile Include="Controls.aspx.designer.cs">
       <DependentUpon>Controls.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controls4B.aspx.cs">
+      <DependentUpon>Controls4B.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls4B.aspx.designer.cs">
+      <DependentUpon>Controls4B.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,8 +128,17 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Departments.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="GridviewLab.aspx.cs">
+      <DependentUpon>GridviewLab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridviewLab.aspx.designer.cs">
+      <DependentUpon>GridviewLab.aspx</DependentUpon>
     </Compile>
     <Compile Include="header.Master.cs">
       <DependentUpon>header.Master</DependentUpon>
@@ -141,6 +160,13 @@
     </Compile>
     <Compile Include="Navbar.Master.designer.cs">
       <DependentUpon>Navbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PageDirec4F.aspx.cs">
+      <DependentUpon>PageDirec4F.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageDirec4F.aspx.designer.cs">
+      <DependentUpon>PageDirec4F.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Students.cs" />
